@@ -1,0 +1,150 @@
+.follow-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #9f82e8;
+    margin: auto;
+}
+
+.rastrear{
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.rastrear-btn{
+    text-align: center;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    --color: #910d42;
+    color: #f0f0f0;
+}
+.rastrear-btn:hover{
+    --color: #910d42;
+    color: #f0f0f0;
+}
+.rastrear-btn:active:before{
+    background-color:#d0608c ;
+}
+
+.rastrear-title{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.pedido{
+    width: 25%;
+    transition: 1s;
+}
+
+.buscando{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #d0608c;
+    height: 10rem;
+}
+
+.order-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.order-item p{
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+
+.order-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem;
+}
+
+
+
+.order-title{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.wsp{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.flecha{
+    font-size: 2rem;
+}
+.order-item a{
+    display: inline !important;
+}
+
+.btn-wsp{
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: #075E54;
+    margin: auto;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1034px) {
+    .pedido{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 853px) {
+    .pedido{
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 735px) {
+    .pedido{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 641px) {
+    .pedido{
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 572px) {
+    .pedido{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 516px) {
+    .pedido{
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 468px) {
+    .pedido{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 428px) {
+    .pedido{
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 398px) {
+    .pedido{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 368px) {
+    .pedido{
+        width: 75%;
+    }
+}

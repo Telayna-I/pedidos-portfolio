@@ -1,0 +1,99 @@
+body{
+    background-image: url(../../Assets/fondo2.png);
+    padding:0 0 80px 0 ;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: #3c0120;
+    color: #f0f0f0;
+    box-shadow: 0 1px 5px #122;
+    z-index: 1000000;
+}
+
+.logo{
+    font-weight: 500;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-link{
+    margin: 0 2rem;
+    padding: 1rem 0.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    background-color: #511334;
+}
+
+header .nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #f0f0f0;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 768px){
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    nav .nav-link{
+        width: 100%;
+        margin: 0rem 0rem;
+        padding: 2rem 0;
+    }
+
+    .nav-link:hover{
+        background-color: #511334;
+    }
+    
+    header nav{
+        position: fixed;
+        top:0 ;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #3c0120;
+        gap: 1.5rem;
+        z-index: 100000;
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    header .responsive_nav{
+        transform: none;
+    }
+
+    nav .nav-close-btn{
+        font-size: 2.3rem;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+}
+
